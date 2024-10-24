@@ -8,6 +8,20 @@ body {
     color: #000;
 }
 
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+iframe {
+  border: none;
+  padding: 0;
+  margin: 0 0 -8px 0;
+  vertical-align: middle; /* Ensures the iframe aligns with the button */
+}
+
 .link-block a {
     margin-top: 5px;
     margin-bottom: 5px;
